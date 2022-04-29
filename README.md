@@ -1,1 +1,3 @@
-# r5apex
+# r5apex.cmd
+
+Here's my launch script for [Apex Legends](https://www.ea.com/games/apex-legends). The script does a few things: it sets desktop resolution, CPU priority, affinity and optimizations and finally starts Apex Legends together with [Steam Achievement Manager](https://github.com/gibbed/SteamAchievementManager/releases) so that [Steam](https://store.steampowered.com/) knows that I'm playing Apex: this is because I'm forced to use [Origin](https://www.origin.com/) or the game will stutter (and I don't know why!) this way my friends on Steam can see I'm playing, and join. When you close the game, the Steam Achievement Manager is also closed automatically, more info about what the script does [here](https://davidecolombo.space/solved-100-cpu-usage-in-apex-legends-season-10/).
