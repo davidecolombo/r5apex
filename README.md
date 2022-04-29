@@ -9,3 +9,4 @@ Here's my launch script for [Apex Legends](https://www.ea.com/games/apex-legends
 - Edit `line 4` in [r5apex.cmd](r5apex.cmd) and change it to your Apex Legends executable `r5apex.exe` full path, for example: `set r5apex=C:\Program Files (x86)\Origin Games\Apex\r5apex.exe`
 - Edit `line 7` in [r5apex.cmd](r5apex.cmd) and change `/affinity FF` to match your preferred setting, further information [here](https://superuser.com/questions/181577/what-is-windows-priority-and-affinity-and-what-advatanges-does-it-provide)
 - Edit `line 2` in [r5apex.ps1](r5apex.ps1) and change it to your preferred desktop resolution, for example `Set-ScreenResolution -Width 1920 -Height 1080` this will set your resolution to 1920x1080 before the game starts
+- Finally run `r5apex.cmd` and the game should start with the presets you selected
