@@ -16,7 +16,7 @@ Here's my launch script for [Apex Legends](https://www.ea.com/games/apex-legends
 | apex_cpu_affinity | FF                                                  |
 
 - Change `apex_bin` to the full path of your Apex Legends executable `r5apex.exe`
-- Change `apex_width` and `apex_height` to your preferred resolution, it'll be changed before the game is actually started
+- Change `apex_width` and `apex_height` to your preferred in-game screen resolution
 - Change `apex_cpu_affinity` to match your preferred settings, further information [here](https://superuser.com/questions/181577/what-is-windows-priority-and-affinity-and-what-advatanges-does-it-provide) and [here](https://github.com/jeremycollake/affinity-calc)
 - Finally run `r5apex.cmd` to start the game
 
