@@ -9,5 +9,4 @@ timeout 5 > NUL
 goto loop
 :kill
 taskkill /IM "SAM.Game.exe" /F
-rem @pause
 exit

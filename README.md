@@ -5,11 +5,20 @@ Here's my launch script for [Apex Legends](https://www.ea.com/games/apex-legends
 ## Quick Start
 
 - Download the [script](https://github.com/davidecolombo/r5apex/archive/refs/heads/main.zip) and extract to a folder
-- Download [Steam Achievement Manager](https://github.com/gibbed/SteamAchievementManager/releases) and extract to the same folder
-- Edit `line 4` in [r5apex.cmd](r5apex.cmd) and change it to your Apex Legends executable `r5apex.exe` full path, for example: `set r5apex=C:\Program Files (x86)\Origin Games\Apex\r5apex.exe`
-- Edit `line 7` in [r5apex.cmd](r5apex.cmd) and change `/affinity FF` to match your preferred settings, further information [here](https://superuser.com/questions/181577/what-is-windows-priority-and-affinity-and-what-advatanges-does-it-provide)
-- Edit `line 2` in [r5apex.ps1](r5apex.ps1) and change it to your preferred resolution, for example: `Set-ScreenResolution -Width 1920 -Height 1080` this will set your resolution to 1920x1080 before the game is actually started
-- Finally run `r5apex.cmd` and the game should start with the presets you selected
+- Download [Steam Achievement Manager](https://github.com/gibbed/SteamAchievementManager/releases) and extract `SAM.API.dll` and `SAM.Game.exe` to the same folder
+- Edit configurations within [settings.cmd](r5apex.cmd)
+
+| Variable          | Value                                               |
+| ----------------- | ----------------------------------------------------|
+| apex_bin          | C:\Program Files (x86)\Origin Games\Apex\r5apex.exe |
+| apex_width        | 1920                                                |
+| apex_height       | 1080                                                |
+| apex_cpu_affinity | FF                                                  |
+
+- Change `apex_bin` to the full path of your Apex Legends executable `r5apex.exe`
+- Change `apex_width` and `apex_height` to your preferred resolution, it'll be changed before the game is actually started
+- Change `apex_cpu_affinity` to match your preferred settings, further information [here](https://superuser.com/questions/181577/what-is-windows-priority-and-affinity-and-what-advatanges-does-it-provide) and [here](https://github.com/jeremycollake/affinity-calc)
+- Finally run `r5apex.cmd` to start the game
 
 ## Affinity Table
 
