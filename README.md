@@ -6,7 +6,7 @@ Here's my launch script for [Apex Legends](https://www.ea.com/games/apex-legends
 
 - Download the [script](https://github.com/davidecolombo/r5apex/archive/refs/heads/main.zip) and extract to a folder
 - Download [Steam Achievement Manager](https://github.com/gibbed/SteamAchievementManager/releases) and extract `SAM.API.dll` and `SAM.Game.exe` to the same folder
-- Edit configurations within [settings.cmd](r5apex.cmd)
+- Edit configurations within [settings.cmd](settings.cmd)
 
 | Variable          | Value                                               |
 | ----------------- | ----------------------------------------------------|
